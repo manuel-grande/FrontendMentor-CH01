@@ -1,0 +1,49 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+
+  --fs: 1.125rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--dark-cyan);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.card {
+  width: 18.75em;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card--header img {
+  border-radius: 10px 10px 0 0;
+}
+
+.victor-img {
+    margin: 0 0 0 100px;
+    border-radius: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
